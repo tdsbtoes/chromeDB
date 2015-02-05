@@ -1,0 +1,28 @@
+{
+	"name": "TOES LOGIN",
+	"version": "0.0.5",
+	"manifest_version": 2,
+	"description": "Log into the TOES DB",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"default_locale": "en",
+	"app": {
+		"background": {
+			"scripts": ["js/loader.js"]
+		}
+	},
+	"permissions": [
+		"storage",
+		"unlimitedStorage",
+		"contextMenus",
+		"fileSystem",
+		"http://toes.tdsb.on.ca/"
+	],
+	"externally_connectable": {
+		"matches": ["*://*.tdsb.on.ca/*", "*://localhost/*"]
+	},
+	"offline_enabled": true
+}
