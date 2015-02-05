@@ -1,0 +1,61 @@
+#contentPanel{
+	float: none;
+	border: 0px solid black;
+	margin-top: -3px;
+	margin-left: 198px; /*25px*/
+	width: 487px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 487px;
+	/*Hack for IE-Mac*/
+	/*\*//*/position:absolute;/**/
+    /*\*//*/left:30px;/**/
+}
+
+select.dropdown{/*headerpanel sign in dropdownlist*/
+	color: #333;
+	font-size: 10px;
+	width:107px;
+}
+
+
+p.subheaderBar{
+	padding: 5px 0px 2px 9px;
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #FFCC99;
+	border-top:1px solid #FF9900;
+	_height:25px;
+	vertical-align:length;
+	margin-bottom:5px;
+}
+td.subheaderBar{
+	padding: 3px 0px 5px 9px;
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #FFCC99;
+	border-top:1px solid #FF6600;
+	height:28px;
+}
+
+td.subheaderBarCalculator{
+	padding: 3px 0px 5px 9px;
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #CCCCCC;
+	border-top:1px solid #FF6600;
+	height:28px;
+}
+
+.buttonDivider{
+	text-align: center;
+	border-top: 3px solid #ccc;
+	padding-top: 14px;
+	width: 498px;
+}

@@ -1,0 +1,409 @@
+/*************************************************/
+/* 		headerPanel								 */
+/*************************************************/
+
+#headerBar{ /*changed from headergraybar */
+	width: 723px;
+	margin: 0 auto;
+	background-color: #e3e3e3;
+	line-height: 15px;
+	padding: 0;
+}
+
+/* header styles */
+#headerPanel{
+	float: left;
+	width: 721px;
+	margin-left: 1px;
+	background-repeat: no-repeat;
+	font-size: 10px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 721px;
+}
+html>body #headerPanel{
+  width: 721px;
+}
+
+#headerPanelLogo{
+	float: left;
+	margin-left: 5px;
+	margin-top: 17px;
+	_margin-top: 20px;
+	width: 140px;
+	position:absolute;
+	/*Hack for IE-Mac*/
+	/*\*//*/margin-left:0px;/**/
+}
+
+#headerTopLinks{
+	width: 721px;
+	margin-left: 193px;
+	border-bottom: 1px solid #ccc;
+	color: #666;
+	text-align: right;
+	font-weight: bold;
+	line-height: 14px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 528px;
+}
+html>body #headerTopLinks{
+  width: 528px;
+}
+#headerTopLinks ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 15px;
+}
+#headerTopLinks ul li.last{
+	list-style: none;
+	display: inline;
+	padding: 0;
+}
+#headerTopLinks a{
+	color: #999;
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 22px;
+
+	text-decoration: none;
+}
+#headerTopLinks a: link{}
+#headerTopLinks a: visited{}
+#headerTopLinks a: active{}
+#headerTopLinks a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+select.dropdown{
+	color: #333;
+	font-size: 10px;
+	width:110px;
+}
+
+.signinText{/*used in txn site headerPanel*/
+	color: #999;
+	font-size: 11px;
+}
+
+#signin{
+	float: right;
+	padding-right: 10px;
+	padding-top:10px;
+	padding-bottom:9px;
+}
+#signin ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 7px;
+	list-style-position: inside;
+}
+#signin ul li a{
+	text-decoration:none;
+}
+#signin ul li.dropdown{
+	padding: 0;
+}
+#headerSideLinks{
+	float: right;
+	width: 130px;
+	margin: 10px auto 10px auto;
+	text-align: left;
+}
+#headerSideLinks a{
+    font-size:10px;
+    _vertical-align:top;
+}
+#headerSideLinks a: link{}
+#headerSideLinks a: visited{}
+#headerSideLinks a: active{}
+#headerSideLinks a:hover{
+	color: #c00;
+}
+#headerSideLinks ul{
+}
+#headerSideLinks ul li{
+	list-style:none;
+	padding-left:10px;
+	background: transparent url(../../default/images/bullet_red.gif) no-repeat 0px 5px;
+	vertical-align:top;
+	/*Hack for IE-Mac*/
+	/*\*//*/padding-left:20px;/**/
+}
+
+/* ============================ topNav ================== */
+
+#topNav{
+	width:714px;
+	background-color: #FF0000;
+	margin:-1px 1px 1px 1px;
+	padding: 0px;
+	padding-left:7px;
+	_width:720px;
+	height:21px;
+}
+/*html>body #topNav{
+	width: 704px;
+}*/
+#topNav ul li{
+	display: inline;
+	list-style: none;
+}
+
+#topNav ul li a{
+	cursor: pointer;
+	padding:0px 1px 0px 1px;
+	height:21px;
+}
+#topNav ul li a.topNavSelected{
+	cursor: pointer;
+	padding:0px 1px 0px 1px;
+}
+
+#topNav ul li a:hover, #topNav.topNavSelected ul li a:hover{
+	cursor: pointer;
+	padding:0px 1px 0px 1px;
+}
+
+/* ============================ breadcrumbs ================== */
+#breadcrumbs{
+	width: 523px;
+	margin: 0px 0 0 34px;
+	text-align: left;
+	color: #000;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 17px;
+	text-transform: lowercase;
+	/*Hack for MAC-IE*/
+	/*\*//*/clear:both;/**/
+}
+#breadcrumbs ul li{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	display: inline;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding-right: 3px;
+	padding-left: 3px;
+	_padding-left: 1px;
+}
+#breadcrumbs ul li.last{
+	list-style: none;
+	display: inline;
+	padding: 0;
+	color: #666;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	padding-left: 3px;
+	text-decoration: none;	
+}
+
+#breadcrumbsNoWings{
+
+	width: 523px;
+	margin: 0px 0 0 0px;
+	text-align: left;
+	color: #000;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	line-height: 17px;
+	/*Hack for MAC-IE*/
+	/*\*//*/clear:both;/**/
+}
+#breadcrumbsNoWings ul li{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	display: inline;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	padding-right: 3px;
+	padding-left: 3px;
+	_padding-left: 1px;
+}
+#breadcrumbsNoWings ul li.last{
+	list-style: none;
+	display: inline;
+	padding: 0;
+	color: #666;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	padding-left: 3px;
+	text-decoration: none;
+}
+#breadcrumbsNoWings a{
+	color: #000;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+#breadcrumbsNoWings a: link{}
+#breadcrumbsNoWings a: visited{}
+#breadcrumbsNoWings a: active{}
+#breadcrumbsNoWings a:hover{
+	color: #c00;
+}
+
+#breadcrumbs a{
+	color: #000;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+#breadcrumbs a: link{}
+#breadcrumbs a: visited{}
+#breadcrumbs a: active{}
+#breadcrumbs a:hover{
+	color: #ff0000;
+}
+
+/* ============================ mainTitle ================== */
+#mainTitle{
+	width: 723px;
+	border: solid 0px;
+	margin: 18px 0 22px 34px;
+	text-align: left;
+	color: #666;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	text-transform: lowercase;
+	width: 688px;
+	/*Hack for MAC-IE*/
+	/*\*//*/float:left;/**/
+}
+
+#mainTitle span.pageHints{
+	float:right;
+	text-align:right;
+	vertical-align:middle;
+	padding-top:8px;
+	margin-right:43px;
+	}
+
+#mainTitleNoWings{
+	border: solid 0px;
+	margin: 18px 0 22px 0px;
+	text-align: left;
+	color: #666;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	width: 685px;
+}
+
+#mainTitleNoWings span.pageHints{
+	float:right;
+	text-align:right;
+	vertical-align:middle;
+	padding-top:8px;
+	margin-right:43px;
+}
+
+.breadcrumbs{
+	width: 523px;
+	margin: 0px 0 0 34px;
+	text-align: left;
+	color: #666;
+	font-size: 9px;
+	line-height: 16px;
+	/*Hack for MAC-IE*/
+	/*\*//*/clear:both;/**/
+}
+#breadcrumbs ul li{
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	display: inline;
+	font-size: 9px;
+	padding-right: 3px;
+	padding-left: 3px;
+	_padding-left: 1px;
+}
+
+.subtitle {
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight : bold;
+	color : #FF0000;
+	line-height : 1.4em;
+}
+
+
+/* ============================ sign in area ================== */
+A.smallSignInLink:link {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : normal;
+	color: #666666;
+}
+
+A.smallSignInLink:visited {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : normal;
+	color: #666666;
+}
+
+A.smallSignInLink:hover {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : normal;
+	color: #FF6600;
+}
+
+A.smallSignInLink2:link {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : normal;
+	color: #FF0000;
+}
+
+A.smallSignInLink2:visited {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : normal;
+	color: #FF0000;
+}
+
+A.smallSignInLink2:hover {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : normal;
+	color: #FF6600;
+}
+
+select.sign_in_select {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	width:100px;
+}
+
+option.text {
+	text-transform: none;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+/* ============= pcfemtchat div ===============*/
+#pcfemtchat{
+	border: 0px;
+	float: left;
+	width: 138px;
+	height: 25px;	
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+

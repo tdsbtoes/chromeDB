@@ -1,0 +1,1000 @@
+/*************************************************/
+/* 		GLOBAL or GENERAL styles				 */
+/*************************************************/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	border: 0;
+}
+
+/* ========== default link ================== */
+A:link {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF0000;
+}
+
+A:visited {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF9934;
+}
+
+A:hover {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FF6600;
+}
+
+a.bold{
+	font-weight: bold;
+}
+
+body{
+	text-align: center;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+p, div.normal,.spacer{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	padding-bottom: 15px;
+	text-transform: none;
+	padding-left:0px;
+}
+
+p.alignButton{
+	text-align: center;
+	padding-top: 15px;
+}
+
+h2, .pageTitle{ /* used for page Title */
+	padding-bottom: 10px;
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 16px;
+	font-weight : bold;
+	color : #FF0000;
+	line-height : 1em;
+	/*padding-left:10px;*/
+	text-transform: lowercase;
+}
+
+.pageTitleWithNoTextTransform{ /* used for error_404.html page Title */
+	padding-bottom: 10px;
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 16px;
+	font-weight : bold;
+	color : #FF0000;
+	line-height : 1em;	
+	text-transform: none;
+}
+.pageTitleBig{ /* used for larger page Title in splash page when graphic is not used */
+	padding-bottom: 10px;
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 32px;
+	font-weight : bold;
+	color : #2E2E2E;
+	line-height : 1em;
+	/*padding-left:10px;*/
+}
+
+.pageTitleBigRate{ /* used for larger page Title in splash page when graphic is not used */
+	padding-bottom: 5px;
+
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size : 35px;
+	font-weight : bold;
+	color : #FF0000;
+	line-height : 1em;
+	/*padding-left:10px;*/
+}
+
+h2.darkgreytextbig {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18pt;
+    color:#777777;
+    font-weight:normal;
+    text-transform: none;
+}
+
+h3{ /* bold sub-headings with One line spacing below */
+	color: #333;
+	font-size: 11px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+h4{ /* bold sub-headings with no spacing below */
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	text-decoration:none;
+	/*padding-left:10px;*/
+}
+
+h6{ /* bold sub-headings with no spacing below */
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 0px;
+	text-decoration:none;
+	/*padding-left:10px;*/
+}
+
+h5{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #FF0000;
+	padding-bottom: 5px;
+}
+
+td{
+	color: #333;
+	font-size: 11px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	/*background-color: #FFFFFF;*/
+	/*text-transform: lowercase;*/
+}
+
+input,select{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding-left:1px;
+}
+
+select.cardsDropDown {
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	width: 125px;
+}
+
+ul{
+	/*margin-bottom:10px;*/
+}
+li{
+	color: #333;
+	font-size: 11px;
+	list-style: disc;
+}
+
+#container{
+	width: 723px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+	border: 1px solid #cccccc;
+}
+
+
+/*****************************************************/
+/* The following are copied from styles.css          */
+/* Needed futher clean or breakdown                  */
+/*****************************************************/
+
+sup{
+	font-size:11px;
+	text-decoration:none;
+
+}
+#superscriptLink a{color:red;border-bottom:1px solid #099;
+	padding-bottom: 4px;
+}
+
+.toLowerCase{
+	text-transform: lowercase;
+}
+
+.toUpperCase{
+	text-transform: uppercase;
+}
+
+.toCapital{
+	text-transform: capitalize;
+}
+
+.toFixedCase{
+	text-transform: none;
+}
+
+.divider{
+	border-top: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.dividerLine,.calculatorDotted{
+	margin:0px;
+	padding:0px;
+	margin-bottom:0px;
+	border-top:1px #CCCCCC dotted;
+}
+.genericBold{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	text-transform: none;	
+}
+.genericBoldTecp{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	text-transform: none;	
+	padding-left: 0px
+
+
+}
+
+.genericSmallBold{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	font-weight:bold;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.genericBoldBlue{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0067B1;
+	font-weight:bold;
+}
+
+.genericBoldGreen{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #9FA617;
+	font-weight:bold;
+}
+
+.genericBoldRed{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #EE3124;
+	font-weight:bold;
+}
+
+.genericBoldYellow{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFE800;
+	font-weight:bold;
+}
+.greyBG{
+	padding:0px;
+	background-color:#E4E4E4;
+}
+
+.genericSmall{
+	color: #333;
+	font-size:9px;
+}
+
+.generic{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	/*  text-transform: lowercase; */
+}
+
+.small,A.smallLink{
+	font-size:11px;
+}
+
+.small_margin{
+	font-size:11px;
+	padding-left:2px;
+	padding-right:2px;
+}
+.smaller{
+	font-size:9px;
+}
+.smallBold{
+	font-size:11px;
+	font-weight:bold;
+}
+
+p.nospace{
+	padding-bottom: 0;
+}
+
+/* **************************** Styles for the Button **************************** */
+.buttonDivider{
+	text-align: center;
+	border-top: 3px solid #ccc;
+	padding-top: 14px;
+	margin-top: 10px;
+}
+
+a.gbutton, input.gbutton, button.gbutton, printa.gbutton{
+	text-transform: lowercase;
+	text-decoration:none;
+}
+a.rbutton, input.rbutton, button.rbutton{
+	text-transform: lowercase;
+	text-decoration:none;
+}
+
+a.rbuttonToFixedCase, input.rbuttonToFixedCase, button.rbuttonToFixedCase{
+	text-transform:none;
+	text-decoration:none;
+}
+
+a.gbuttonToFixedCase, input.gbuttonToFixedCase, button.gbuttonToFixedCase{
+	text-transform:none;
+	text-decoration:none;
+}
+
+a.gbutton button, a.gbutton input, input.gbutton, button.gbutton{
+	text-decoration:none;
+	background-color: #909090;
+	color: #FFFFFF;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:lowercase;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+a:hover.gbutton button, a:hover.gbutton input, input.gbuttonHover {
+	text-decoration:none;
+	background-color: #ACACAC;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:lowercase;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+a.rbutton button, a.rbutton input, input.rbutton, button.rbutton{
+	text-decoration:none;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:lowercase;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+/* ===========================================================
+
+RED BUTTON mimic market style as per mockup signed off by client  */
+a.rbuttonMktMimic button, a.rbuttonMktMimic input, input.rbuttonMktMimic, button.rbuttonMktMimic{
+	text-decoration:none;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	/* font-size:10px;*/
+	font-size: 16px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:none;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+	width: 160px;
+	height: 39px;
+}
+/* roll over */
+a:hover.rbuttonMktMimic button, a:hover.rbuttonMktMimic input, input.rbuttonMktMimicHover{
+	text-decoration:none;
+	background-color: #ACACAC;
+}
+
+/* ============================================================== */
+a.rbuttonToFixedCase button, a.rbuttonToFixedCase input, input.rbuttonToFixedCase, button.rbuttonToFixedCase{
+	text-decoration:none;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:none;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+a.gbuttonToFixedCase button, a.gbuttonToFixedCase input, input.gbuttonToFixedCase, button.gbuttonToFixedCase{
+	text-decoration:none;
+	background-color: #909090;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:none;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+a:hover.rbutton button, a:hover.rbutton input, input.rbuttonHover{
+	text-decoration:none;
+	background-color: #ACACAC;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:lowercase;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+a:hover.rbuttonToFixedCase button, a:hover.rbuttonToFixedCase input, input.rbuttonHoverToFixedCase{
+	text-decoration:none;
+	background-color: #ACACAC;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:none;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+a:hover.gbuttonToFixedCase button, a:hover.gbuttonToFixedCase input, input.gbuttonHoverToFixedCase{
+	text-decoration:none;
+	background-color: #ACACAC;
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight: bold;
+	margin: 2px;
+	cursor: pointer;
+	text-transform:none;
+	padding:.1em .75em .1em .75em;
+	width:auto;
+    overflow:visible;
+}
+
+/* ******************** Styles for the Button ends here****************** */
+
+
+div.headline {
+	border-top: 1px #ccc dotted;
+	background-color: #fff;
+	/*\*//*/padding-bottom:10px;/**/
+}
+
+.smallHeading{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color : #666666;
+	font-size : 11px;
+	font-weight : bold;
+	text-transform: lowercase;
+}
+
+
+
+ul.default{
+	padding-top: 6px;
+	padding-bottom: 8px;
+	font-size: 11px;
+	margin-left:15px;
+}
+
+li ul.noBullet li{
+	background: transparent ;
+	list-style:none;
+	list-style-position:inside;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.dottedDivider{
+	border-top:solid 1px #CCCCCC;
+}
+
+td.stepDottedDivider{
+	border-top:dotted 1px #CCCCCC;
+	padding-top:5px;
+	height:30px;
+}
+td.stepDivider{
+	border-top:solid 1px #CCCCCC;
+	padding-top:5px;
+	height:30px;
+}
+td.wrap{
+	word-wrap: break-word;
+}
+td.newDivider{
+	padding-top:5px;
+	padding-bottom:5px;
+	vertical-align:top;
+}
+td.newTextDivider{
+	padding-top:4px;
+	padding-bottom:3px;
+	vertical-align:top;
+}
+td.boldDivider{
+	border-top:solid 2px #CCCCCC;
+	height:30px;
+}
+p.boldDivider{
+	border-top:solid 2px #CCCCCC;
+	padding-bottom:0px;
+}
+p.bottomBoldDivider{
+	padding-bottom:0px;
+    text-align:center;
+    border-top:3px solid #CCCCCC;
+    padding-top:14px;
+    margin-top:10px;
+}
+p.divider{
+	border-top:solid 1px #CCCCCC;
+	padding-bottom:0px;
+}
+.genericHeading{
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+.alignRight{
+	float:right;
+}
+
+.errorText{
+	font-size: 11px;
+	font-weight:normal;
+	color:red;
+}
+p.bottomDivider{
+	padding-bottom:0px;
+}
+
+.errorTextBox{
+	font-size: 11px;
+	font-weight:normal;
+    border:solid 2px #FF0000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	_padding:5px;
+	_vertical-align:top;
+}
+
+
+/*Used SPE for progressive Bar*/
+.boldNumbering{
+    padding-top:10px;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+
+p.returnToTopDivider{
+	border-bottom:solid 1px #CCCCCC;
+}
+
+.returnToTopAnchor{
+	float:right;
+	font-size: 9px;
+	color:#099;
+	text-decoration: none;
+}
+#serverId{
+	float: right;
+	font-size: 10px;
+	color: #333;
+}
+
+.floatRight{
+
+	/*\*//*/clear:both;/**/
+}
+
+
+A.links:link {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : bold;
+	text-decoration: none;
+	color: #808080;
+	padding-left:10px;
+}
+A.links:visited {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : bold;
+	text-decoration: none;
+	color: #808080;
+	padding-left:10px;
+}
+A.links:hover {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight : bold;
+	text-decoration: none; 
+	color: #FFFFFF;
+	padding-left:10px;	
+}
+
+.color1 {
+	background-color: #FF0000
+}
+.color2 {
+	background-color: #CCCCCC;
+}
+.color3 {
+	background-color: #CCCCCC;
+}
+
+.color4 {
+	background-color: #999999;
+}
+
+.color5 {
+	background-color: #ffffff;
+}
+
+.color6 {
+	background-color: #E4E4E4;
+}
+
+.color7 {
+	background-color: #FFCC99;
+}
+
+.color8 {
+	background-color: #FF9933;
+}
+
+A.marketingLink:link {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			color: #FF0000;
+			font-weight: bold;
+			line-height : 14px;
+			text-decoration: none;
+			text-transform:none;
+}
+
+A.marketingLink:visited {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			color: #FF0000;
+			font-weight: bold;
+			line-height : 14px;
+			text-decoration: none;
+			text-transform:none;
+}
+
+A.marketingLink:hover {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 12px;
+			color: #FF0000;
+			font-weight: bold;
+			line-height : 14px;
+			text-decoration: none;
+			text-transform:none;
+}
+A.smallmarketingLink:link {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			color: #FF0000;
+			font-weight: bold;
+			line-height : 14px;
+			text-decoration: underline;
+}
+
+A.smallmarketingLink:visited {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			color: #FF0000;
+			font-weight: bold;
+			line-height : 14px;
+			text-decoration: underline;
+}
+
+A.smallmarketingLink:hover {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			color: #FF0000;
+			font-weight: bold;
+			line-height : 14px;
+			text-decoration: underline;
+}
+
+.mktText {  font-family: Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			color: #000000;
+			line-height : 13px;
+}
+
+.mktTextbold {  font-family: Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			color: #000000;
+			line-height : 13px;
+			font-weight: bold;
+}
+
+.mktTextred {  font-family: Arial, Helvetica, sans-serif;
+      font-size: 10px;
+      color: #FF0000;
+      line-height : 13px;
+}
+
+.caption {
+	font-family:  Arial, Verdana, Helvetica, sans-serif;
+	color : #666666;
+	font-size : 9px;
+}
+/* ========== small link ================== */
+A.smallLink:link {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF0000;
+}
+
+A.smallLink:visited {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF9934;
+}
+
+A.smallLink:hover {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FF6600;
+}
+
+p.small a:link{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #FF0000;
+	text-transform:lowercase;
+}
+
+p.small a:visited{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #FF9934;
+	text-transform:lowercase;
+}
+
+p.small a:hover{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #FF6600;
+	text-transform:lowercase;
+}
+
+/* mutual funds*/
+.popupHead_width_35pc_margin_grey {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #CCCCCC;
+	font-weight : bold;
+	width:35%;
+	height:20px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.popupHead_width_15pc_margin_grey {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #CCCCCC;
+	font-weight : bold;
+	width:15%;
+	height:20px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.td_content_15pc_margin_grey {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	width:15%;
+	height:20px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+.td_content_35pc_margin_grey {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	width:35%;
+	height:20px;
+	padding-left:2px;
+	padding-right:2px;
+}
+
+/* end of mutual funds*/
+.tdheight{
+    height: 0px;
+}
+
+/* for calculator */
+.calculatorBold{
+    color: #FF0000;
+	font-weight:bold;
+}
+
+.calculatorSubHeader{
+    font-size: 11px;
+    text-transform:lowercase;
+}
+
+td.dividerLine{
+	margin:0px;
+	padding:0px;
+	margin-bottom:0px;
+	border-top:1px #CCCCCC dotted;
+}
+
+td.calculatorBackGround{
+	background-color:#cccccc;
+}
+
+td.pcfBackGround{
+    background-color:#CC0000;
+    font-family:Arial;
+    color:#ffffff;
+}
+font.tip{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:8pt;
+    color:#FF0000;
+}
+
+.greytext{
+    color:#777777;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10pt;
+}
+
+font.darkgreytext{
+    color:#555555;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10pt;
+}
+
+.noTextTransform { /* used for page Title */
+	text-transform: none;
+}
+
+.totalValueDivider{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight:bold;
+	text-transform: none;
+	border-top: 3px solid #ccc;
+	padding-top: 5px;
+	margin-top: 5px;		
+}
+
+.genericSmallFont{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding-right:1px;
+	word-wrap: break-word;
+	white-space: normal;
+	/*  text-transform: lowercase; */
+}
+
+.genericPadding{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	padding-right:1px;
+	/*  text-transform: lowercase; */
+}
+.warningTextBoxRed{
+	font-size: 12px;
+	font-weight:normal;
+    border:solid 2px #FF0000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	_padding:5px;
+	_vertical-align:top;
+}
+.warningTextBoxBlack{
+	font-size: 12px;
+	font-weight:normal;
+    border:solid 2px #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	_padding:5px;
+	_vertical-align:top;
+}
+/* *********************************** Global Legal Disclaimer ***************************************** */
+@media screen {
+#globalLegalDisclaimer{
+	display: none;
+}
+}
+
+@media print {
+#globalLegalDisclaimer{
+    float: left;
+    width: 100%;
+    margin: 5px 0px 5px 0px;
+}
+.legalText {
+    font-size: 9px;
+    color: #666666;
+}
+.supText {
+    font-size: 7px;
+    vertical-align: super;
+}                        
+}
+
+
+.mainHeading{
+text-align: left !important;
+font-size: 17pt !important;
+font-weight: bold !important;
+color: #666666 !important;
+font-family: Arial;
+}
+.secondaryHeading{
+text-align:left;
+font-size: 14pt;
+font-weight:bold;
+color: #666666;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+.gap{
+padding-left:2em;
+}
+

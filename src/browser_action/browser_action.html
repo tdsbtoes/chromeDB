@@ -1,0 +1,66 @@
+<!doctype html>
+<style type="text/css">
+	#mainPopup {
+		padding: 10px;
+		height: 200px;
+		width: 400px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+	}
+
+	#logbox {
+		border-radius: 10px;
+		background: #ddd;
+		padding: 10px;
+	}
+
+	#logbox {
+		font-size: 1.2em;
+		color: #999;
+		text-shadow: 1px 1px 0px #eee;
+	}
+
+	td {
+		padding: 5px;
+	}
+</style>
+
+
+
+<div id="mainPopup">
+
+	<div id="logbox">
+		<table>
+			<tr>
+				<td align="right" width="50%">user:</td>
+				<td><input type="text" id="user" /></td>
+			</tr>
+			<tr>
+				<td align="right">pw:</td>
+				<td><input type="password" id="pw" /></td>
+			</tr>
+			<tr>
+				<td align="right">log in:</td>
+				<td>
+					<label><input type="radio" name="logtype" id="logdb" value="db" />DB</label>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">&nbsp;</td>
+				<td>
+					<label><input type="radio" name="logtype" id="logweb" value="web" />Web Site</label>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">&nbsp;</td>
+				<td>
+					<input type="button" id="submit" value="go!" />
+				</td>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+
+<script src="/js/jquery/jquery.min.js"></script>
+<script src="js.js"></script>

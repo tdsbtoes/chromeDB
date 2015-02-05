@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<head>
+	<title>TOES DB</title>
+	
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="js/jquery/jquery-ui.theme.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	
+	<script src="js/jquery/jquery.min.js"></script>
+	<script src="js/jquery/jquery-ui.min.js"></script>
+	<script src="js/jquery/jquery.autocomplete.js"></script>
+	<script src="js/sha256.js"></script>
+	<script src="js/main.js"></script>
+</head>
+
+
+
+<body>
+	
+	<div class="body-login">		
+		<h1 id="loader"
+			align="center">LOADING IN SUPPLIES</h1>
+		
+		<div id="login"
+			 class="hide">
+			
+			<div id="login_err"></div>
+			
+			<table>
+				<tr>
+					<td align="right">site:</td>
+					<td>
+						<select id="site">
+							<option value="">Choose your site:</option>
+							<option value="EFSC2">EFSC Secondary</option>
+							<option value="EFSC">EFSC Elementary</option>
+							<option value="FVEOC">FVOEC</option>
+							<option value="Hillside">Hillside</option>
+							<option value="TUSC">TUSC</option>
+							<option value="WPOEC">WPOEC</option>
+							<option value="EOEC">EOEC</option>
+							<option value="INSS">INSS</option>
+							<option value="MCEOC">MCEOC</option>
+							<option value="SCOE">SCOE</option>
+							<option value="SOES">SOES</option>
+						</select>
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="right"
+						width="40%">user:</td>
+					<td>
+						<input type="text"
+							   id="user" />
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="right">pw:</td>
+					<td>
+						<input type="password"
+							   id="pw" />
+					</td>
+				</tr>
+				
+				<tr>
+					<td align="right">&nbsp;</td>
+					<td>
+						<input type="button"
+							   id="submit"
+							   value="go!" />
+					</td>
+				</tr>
+			</table>
+			
+		</div><!--#login-->
+		
+		
+		
+		<div id="db" class="hide">
+			
+			<div id="db_choices_radio"
+				 class="ui-buttonset">
+				
+				<select id="db_years">
+					<option>2014</option>
+					<option>2013</option>
+					<option>2012</option>
+					<option>2011</option>
+				</select>
+				
+				<!-- TABS! reallly -->
+				<input type="radio"
+					   id="radio1"
+					   name="radiotabs"
+					   data-tab="school_page"
+					   class="ui-helper-hidden-accessible">
+					
+					<label for="radio1"
+						   class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left ui-state-active"
+						   role="button"
+						   aria-pressed="true">
+						<span class="ui-button-text">Schools</span>
+					</label>
+				
+				<input type="radio"
+					   id="radio2"
+					   name="radiotabs"
+					   data-tab="journal_page"
+					   class="ui-helper-hidden-accessible">
+					
+					<label for="radio2"
+						   class="ui-button ui-widget ui-state-default ui-button-text-only"
+						   role="button"
+						   aria-pressed="false">
+						<span class="ui-button-text"
+							  title="journal entries">Journals</span>
+					</label>
+				
+				<input type="radio"
+					   id="radio3"
+					   name="radiotabs"
+					   data-tab="search_page"
+					   class="ui-helper-hidden-accessible">
+					
+					<label for="radio3"
+						   class="ui-button ui-widget ui-state-default ui-button-text-only"
+						   role="button"
+						   aria-pressed="false">
+						<span class="ui-button-text" title="search for requests, wait lists, schools">Search</span>
+					</label>
+				
+				<input type="radio"
+					   id="radio4"
+					   name="radiotabs"
+					   data-tab="tool_page"
+					   class="ui-helper-hidden-accessible">
+					
+					<label for="radio4"
+						   class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right"
+						   role="button"
+						   aria-pressed="false">
+						<span class="ui-button-text"
+							  title="tools for emailing, statistics, busing">Tools</span>
+					</label>
+			</div>
+			
+			<!-- TAB PAGES -->
+			<div id="school_page"
+				 class="page">
+				school info
+			</div>
+			
+			<div id="journal_page"
+				 class="hide page">
+				journal info
+			</div>
+			
+			<div id="search_page"
+				 class="hide page">
+				search info
+			</div>
+			
+			<div id="tool_page"
+				 class="hide page">
+				tool info
+			</div>
+			<!-- END TAB PAGES -->
+			
+		</div><!--#db-->
+		
+		
+	</div><!--.body-->
+	
+	
+</body>
+
+
+</html>
